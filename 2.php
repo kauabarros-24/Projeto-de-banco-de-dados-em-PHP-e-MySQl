@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP</title>
+    <title>Exercício2</title>
 </head>
-
 <body>
-    <input type="text" value='
-    <?php 
+<?php
+$nomeDaVar = "minhaVar";
+$$nomeDaVar = 45;
+echo "".$nomeDaVar." e ".$$nomeDaVar.""
 
+
+?>
     
-    echo("hello World!"); 
-    ?>
-    '>
-    
-
-
-
-
 </body>
-
 </html>
